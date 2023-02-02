@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>京东-欢迎登录</title>
+	<link rel="stylesheet" href="./css/base.css">
+	<link rel="stylesheet" href="./css/passport.css">
+	<link rel="shortcut icon" href="./favicon.ico">
+	<script src="./js/jquery-1.12.4.js"></script>
+	<script src="./js/passport.js"></script>
+</head>
+<body>
+	<!-- header -->
+	<div class="w">
+		<div id="logo">
+			<a href="index.html">
+				<img src="./images/logo-201305-b.png" alt="京东">
+			</a>
+			<b></b>
+			<a href="javascript:;" class="question">
+				<b></b>登录页面，调查问卷
+			</a>
+		</div>
+	</div>
+	<!-- content -->
+	<div id="content">
+		<div class="tips">
+			<div class="tips-inner">
+				<i class="tips-icon"></i>
+				<p>依据《网络安全法》，为保障您的账户安全和正常使用，请尽快完成手机号验证！ 新版
+					<a href="javascript:;" id="policy">《京东隐私政策》</a>
+					已上线，将更有利于保护您的个人隐私。
+				</p>
+			</div>
+		</div>
+		<!-- 登录界面 -->
+		<div class="w" id="login">
+			<div id="login-form">
+				<div class="tips">
+					<div class="tips-inner">
+						<i class="tips-icon"></i>
+						<p>京东不会以任何理由要求您转账汇款，谨防诈骗。</p>
+					</div>
+				</div>
+				<div class="login-tab" id="login-tab-l">
+					<a href="javascript:;" class="checked" style="border-right: 1px solid #f4f4f4;">扫码登录</a>
+				</div>
+				<div class="login-tab" id="login-tab-r">
+					<a href="javascript:;">账户登录</a>
+				</div>
+				<!-- 扫码登录 -->
+				<div class="login-ways qrcode-login show">
+					<div class="mc">
+						<div id="qrcode-box">
+							<div id="qrcode-img">
+								<img src="./images/qrcode-img.png" alt="">
+							</div>
+							<div id="scanTip-bg"></div>
+						</div>
+						<div class="scanTip-text">
+							<p>打开<a href="javascript:;">手机京东</a>&nbsp &nbsp也扫不了码</p>
+						</div>
+						<ul id="qrcoagent">
+							<li>
+								<b style="background: url(./images/qr-coagent.png)  0 0 no-repeat;"></b>
+								<span>免输入</span>
+							</li>
+							<li>
+								<b style="background: url(./images/qr-coagent.png)  -27px 0 no-repeat;"></b>
+								<span>更快</span>
+							</li>
+							<li>
+								<b style="background: url(./images/qr-coagent.png)  -54px 0 no-repeat;"></b>
+								<span>更安全</span>
+							</li>
+						</ul>
+					</div>
+					<div class="kbCoagent">
+						<ul>
+							<li>
+								<a href="javascript:;" class="login-QQ">
+									<b class="QQ-icon"></b><span>QQ</span>
+								</a>
+								<span style="color: #ccc;">|</span>
+							</li>
+							<li>
+								<a href="javascript:;" class="login-weiChat">
+									<b class="weiChat-icon"></b><span>微信</span>
+								</a>
+							</li>
+							<li class="fr">
+								<a href="regPage.html" class="reg">
+									<b class="reg-icon"></b><span>立即注册</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- 账户登录 -->
+				<div class="login-ways login-box">
+					<form action="">
+						<div id="form1">
+							<label for="loginname" class="login-label"></label>
+							<input type="text" id="loginname" placeholder="邮箱/用户名/登录手机">
+						</div>
+						<div id="form2">
+							<label for="loginpwd" class="login-label"></label>
+							<input type="password" id="loginpwd" placeholder="密码">
+						</div>
+						<div id="forget-pw" class="fr">
+							<a href="javascript:;">忘记密码</a>
+						</div>					
+						<div id="login-btn">
+							<button type="submit">
+								<a href="javascript:;">登&nbsp&nbsp&nbsp&nbsp录</a>
+							</button>
+						</div>						
+					</form>
+					<div class="kbCoagent">
+						<ul>
+							<li>
+								<a href="javascript:;" class="login-QQ">
+									<b class="QQ-icon"></b><span>QQ</span>
+								</a>
+								<span style="color: #ccc;">|</span>
+							</li>
+							<li>
+								<a href="javascript:;" class="login-weiChat">
+									<b class="weiChat-icon"></b><span>微信</span>
+								</a>
+							</li>
+							<li class="fr">
+								<a href="regPage.html" class="reg">
+									<b class="reg-icon"></b><span>立即注册</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- footer -->
+		<div id="footer">
+			<div>
+				<a href="javascript:;">关于我们</a>|
+				<a href="javascript:;">联系我们</a>|
+				<a href="javascript:;">人才招聘</a>|
+				<a href="javascript:;">商家入驻</a>|
+				<a href="javascript:;">广告服务</a>|
+				<a href="javascript:;">手机京东</a>|
+				<a href="javascript:;">友情链接</a>|
+				<a href="javascript:;">销售联盟</a>|
+				<a href="javascript:;">京东社区</a>|
+				<a href="javascript:;">京东公益</a>|
+				<a href="javascript:;">English Site</a>
+			</div>
+			<div id="copyright">
+				<p>Copyright © 数媒19 19103670131 蔡秋霞 版权所有 </p>
+			</div>	
+		</div>
+	</div>
+</body>
+</html>

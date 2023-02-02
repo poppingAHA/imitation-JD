@@ -1,0 +1,358 @@
+body{
+	background: #fff;
+	color: #666;
+}
+
+/*header*/
+.w{
+	width: 990px;
+	margin: 0 auto;
+}
+/*logo*/
+#logo{
+	width: 300px;
+	height: 60px;
+	margin: 10px 0;
+	position: relative;
+}
+#logo a{
+	display: block;
+	width:170px;
+	height:60px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+#logo>b{
+	width: 110px;
+	height: 40px;
+	display: block;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	background: url(../images/l-icon.png);
+}
+#logo .question{
+	display: block;
+	position: relative;
+	width: 136px;
+	height: 18px;
+	left: 684px;
+	top: 42px;
+	color: #999;
+	float: right;
+	text-decoration: none;
+	font-size: 12px;
+}
+#logo .question:hover{
+	color: #E4393C;
+	text-decoration: underline;
+}
+#logo .question b{
+	width: 18px;
+	height: 14px;
+	display: inline-block;
+	margin-bottom: -4px;
+	margin-right: 4px;
+	background: url(../images/q-icon.png);
+}
+
+/*content*/
+#content{
+	width: 100%;
+	height: 515px;
+	position: relative;
+	background: #E93854;
+}
+.tips{
+	width: 100%;
+	height: 40px;
+	background: #FFF8F0;
+	box-sizing: border-box;
+	padding-top: 13px;
+}
+.tips-inner{
+	height: 19px;
+	text-align: center;
+	font-size: 12px;
+	color: #999;
+}
+.tips-icon{
+	display:inline-block;
+	width: 16px;
+	height: 19px;
+	vertical-align: middle;
+	background: url(../images/icon-tips.png) 0 0.5px no-repeat;
+}
+.tips-inner p{
+	display:inline-block;
+	width: auto;
+	height: 19px;
+}
+.tips-inner p a{
+	color: #333;
+	text-decoration-line: none;
+}
+/*登陆界面*/
+#login{
+	height: 475px;
+	position: relative;
+	background: url(../images/content-bg.png);
+}
+#login-form{
+	width:346px;
+	height: 438px;
+	position: absolute;
+	right: 0;
+	top: 10px; 
+}
+.login-tab{
+	width: 173px;
+	height: 55px;
+	text-align: center;
+	font-size: 18px;
+	border-bottom: 1px solid #f4f4f4;
+	position: absolute;
+	background: #fff;
+	display: block;
+	padding-top: 15px;
+	box-sizing: border-box;
+	z-index: 2;
+}
+#login-tab-l{
+	left: 0px;
+}
+#login-tab-r{
+	right: 0px;
+}
+.login-tab a{
+	text-decoration: none;
+	display: block;
+	height: auto;
+}
+.login-tab a:hover{
+	color: #E4393C;
+	font-weight: bolder;
+}
+.checked{
+	color: #E4393C;
+	font-weight: bolder;
+}
+/*扫码登录*/
+.qrcode-login{
+	width: 308px;
+	height: 308px;
+	padding: 20px 18px 20px 20px;
+	background: #fff;
+	position: absolute;
+	z-index: 1;
+	display: none;
+}
+.mc{
+	height: 243px;
+	text-align: center;
+	margin-top: 55px;
+}
+#qrcode-img{
+	width: 150px;
+	height: 150px;
+	padding: 10px;
+	border: 1px solid #f4f4f4;
+	margin-left: 66px;
+}
+#scanTip-bg{
+	width: 141px;
+	height: 168px;
+	background: url(../images/phone-orange.png);
+	margin-left: 182px;
+	margin-top: -170px;
+	display: none;
+}
+.scanTip-text{
+	width: 266px;
+	height: 20px;
+	text-align: center;
+	padding: 18px 20px;
+}
+.scanTip-text p{
+	font-size: 12px;
+}
+.scanTip-text p a{
+	text-decoration: none;
+	color: #E4393C;
+}
+#qrcoagent{
+	width: 266px;
+	height: 40px;
+	padding: 0 20px;
+	text-align: center;
+	margin-top: -5px;
+}
+#qrcoagent li{
+	float: left;
+	width: 88px;
+}
+#qrcoagent li b{
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	margin-bottom: -8px;
+}
+#qrcoagent li span{
+	display: inline-block;
+	margin-left: 2px;
+	color: #999;
+}
+.kbCoagent{
+	width: 326px;
+	height: 40px;
+	line-height: 40px;
+	padding: 5px 10px;
+	background: #fcfcfc;
+	border-top: 1px solid #f4f4f4;
+	margin-top: 20px;
+	margin-left: -20px;
+}
+.kbCoagent ul li{
+	display: inline-block;
+	width: auto;
+	height: 50px;
+}
+.login-QQ,.login-weiChat{
+	display: inline-block;
+	margin: 0 10px;
+}
+.login-QQ:hover,.login-weiChat:hover{
+	text-decoration: underline;
+	color: #E4393C;
+}
+.QQ-icon{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url(../images/QQ-weixin.png) 0 0 no-repeat;
+	margin-bottom: -7px;
+	margin-right: 5px;
+}
+.weiChat-icon{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url(../images/QQ-weixin.png) -20px 0 no-repeat;
+	margin-bottom: -7px;
+	margin-right: 5px;
+}
+.kbCoagent .fr{
+	display: block;
+	width: 77px;
+	height: 50px;
+	margin-right: 10px;
+}
+.reg{
+	display:block;
+	height: 16px;
+	font-size: 14px;
+	color: #B61D1D;
+}
+.reg-icon{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: url(../images/pwd-icons-new.png) -104px -75px;
+	margin-bottom: -3px;
+	margin-right: 3px;
+}
+.reg:hover{
+	text-decoration: underline;
+}
+/*账户登录*/
+.login-box{
+	width: 308px;
+	height: 290px;
+	background: #fff;
+	padding: 20px 18px 0px 20px;
+	display: none;
+}
+.show{
+	display:block;
+}
+.login-box #form1,#form2{
+	width: 304px;
+	height: 38px;
+	border: 1px solid #BDBDBD;
+}
+#form1{
+	margin-top: 70px;	
+}
+#form2{
+	margin-top: 20px;
+}
+.login-label{
+	display: inline-block;
+	width: 38px;
+	height: 38px;
+	margin-bottom: -15px;
+	border-right: 1px solid #BDBDBD;
+}
+#form1 label{
+	background: url(../images/pwd-icons-new.png) 0px 0px;
+}
+#form2 label{
+	background: url(../images/pwd-icons-new.png) -48px 0px;
+}
+input{
+	width: 254px;
+	height: 18px;
+	line-height: 18px;
+	margin-left: 5px;
+	font-size: 14px;
+}
+#forget-pw{
+	width: 50px;
+	height: 20px;
+	margin-top: 20px;
+}
+#forget-pw a:hover{
+	color: #E4393C;
+	text-decoration: underline;
+}
+#login-btn{
+	width: 302px;
+	height: 31px;
+	line-height: 31px;
+	background: #E4393C;
+	border: 1px solid #E85356;
+	text-align: center;
+	margin-top: 60px;
+}
+#login-btn button{
+	background: #E4393C;
+}
+#login-btn a{
+	display: block;
+	color: #fff;
+	font-size: 20px;
+}
+
+/*footer*/
+#footer{
+	width: 990px;
+	height: 14px;
+	padding: 20px 0px 18px 0px;
+	margin: 0 auto;
+	text-align: center;
+}
+#footer a{
+	display: inline-block;
+	width: 66px;
+	padding-left: 3px;
+	text-align: center;
+}
+#footer a:hover{
+	text-decoration: underline;
+	color: #E4393C;
+}
+#copyright{
+	text-align: center;
+	margin-top: 10px;
+}

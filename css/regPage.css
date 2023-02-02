@@ -1,0 +1,373 @@
+body{
+	background: #fff;
+	color: #666;
+}
+input::-ms-input-placeholder{
+	color: #ccc;
+	font-size: 14px;
+}
+input::-moz-placeholder{
+	color: #ccc;
+	font-size: 14px;
+}
+input::-webkit-input-placeholder{
+	color: #ccc;
+	font-size: 14px;
+}
+
+/*header*/
+.header{
+	width: 1210px;
+	height: 100px;
+	margin: 0 auto;
+}
+/*logo*/
+.header #logo{
+	display:block;
+	width: 150px;
+	height: 50px;
+	margin-top: 20px;
+	margin-left: 0px;
+}
+.header #logo img{
+	display: block;
+	width: 140px;
+	height: 48px;
+	
+}
+.header #logo-title{
+	height: 34px;
+	line-height: 34px;
+	margin-top: 34px;
+	font-size: 24px;
+	color: #333;
+}
+.header .fr{
+	margin-top: 55px;
+	font-size: 16px;
+	color: #999;
+}
+.header .fr a{
+	color: #EE2222;
+}
+.header .fr a:hover{
+	color: #C81623;
+	text-decoration: underline;
+}
+#shadow{
+	width: 100%;
+	height: 5px;
+	background: #F2F2F2;
+}
+
+/*注册界面*/
+#container{
+	width: 1210px;
+	height: 405px;
+	margin: 0 auto;
+	padding: 85px 0px 190px 0px;
+	text-align: center;
+}
+#regform{
+	width: 400px;
+	height: 408px;
+	margin: 0 auto;
+	position: relative;
+}
+/*进程条*/
+.progress-bar{
+	width: 400px;
+	height: 50px;
+	position: absolute;
+}
+/*步骤*/
+.pro-step{
+	float: left;
+	height: 50px;
+}
+.pro-step .step-index{
+	display: block;
+	width: 24px;
+	height: 24px;
+	line-height: 24px;
+	color: #ccc;
+	font-size: 12px;
+	background: url(../images/reg-icon.png) -45px -200px;
+	margin: 0 auto;
+}
+.pro-step .step-desc{
+	display: block;
+	margin-top: 10px;
+	color: #999;
+}
+.progress-bar .line{
+	width: 124px;
+	height: 10px;
+	background: url(../images/reg-icon.png) 0px -98px;
+	margin-left: -10px;
+	margin-right: -7px;
+	margin-top: 5px;
+	float: left;
+}
+.pro-step .index-now{
+	color: #fff;
+	background: url(../images/reg-icon.png) 0px -200px;
+}
+.pro-step .desc-now{
+	color: #33BB44;
+}
+
+#regform .main{
+	width: 400px;
+	position: absolute;
+	top: 105px;
+}
+/*注册表单*/
+#regform .main form{
+	height: 302px;
+}
+/*验证手机号*/
+.main .form #select-country{
+	width: 107px;
+	height: 50px;
+	border: 1px solid #DDD;
+}
+.main .form #select-country label{
+	display:block;
+	width: 107px;
+	height: 35px;
+	font-size: 14px;
+	padding-top: 15px;
+}
+.main .form #select-country label .arrow{
+	display: block;
+	height: 35px;
+	margin-top: -35px;
+	padding-top: 15px;
+}
+#select-country label .arrow i{
+	margin-right: -85px;
+}
+#regform .main .form #phoneNum{
+	display: block;
+	width: 270px;
+	height: 30px;
+	margin-top: -52px;
+	margin-left: 108px;
+	padding:10px;
+	border: 1px solid #DDD;
+}
+#regform .main .form #correct-icon{
+	display:none;
+	width: 26px;
+	height: 26px;
+	background: url(../images/reg-icon.png) 0px 0px;
+	margin-top: -39px;
+	margin-bottom: 13px;
+	margin-left: 360px;
+	position: absolute;
+	z-index: 1;
+}
+#regform .main .form #check-phoneNum{
+	width: 398px;
+	height: 52px;
+	line-height: 52px;
+	border: 1px solid #DDD;	
+	font-size: 14px;
+	color: #333;
+	background: #fff;
+	cursor: pointer;
+	margin-top: 35px;
+}
+#regform .main .form .nextstep{
+	display: block;
+	width: 400px;
+	height: 54px;
+	line-height: 54px;
+	color: #fff;
+	background: #E2231A;
+	font-size: 16px;
+	margin-top: 35px;
+}
+#regform .main .form .nextstep:hover{
+	background: #C81623;
+}
+.reg-others{
+	width: 118px;
+	height: 28px;
+	font-size: 14px;
+	color: #333;
+	margin-top: 30px;
+}
+.reg-others div{
+	width: 28px;
+	height: 28px;
+	margin-left: 0px;
+	margin-bottom: -25px;
+}
+.reg-others #qiye-icon{
+	background: url(../images/reg-icon.png) 0px -161px;
+}
+.reg-others #haiwai-icon{
+	background: url(../images/reg-icon.png) -40px -161px;
+}
+form .reg-others span{
+	display: block;
+	height: 28px;
+	float: right;
+}
+form .reg-others a:hover{
+	color: #C81623;
+}
+/*验证码验证*/
+#code-box{
+	width: 400px;
+	height: 54px;
+	font-size: 14px;
+	background: #fff;
+	margin-top: 35px;
+	display: none;
+}
+.main #code-box #input-box{
+	width: 263px;
+	height: 52px;
+	border: 1px solid #DDD;
+	float: left;
+}
+.main #code-box #code{
+	width: 133px;
+	height: 52px;
+	line-height: 52px;
+	text-align: center;
+	border: 1px solid #DDD;
+	float: right;
+	background: #F4F5F6;
+	color: #999;
+	font-size: 14px;
+}
+.main #code-box #code span{
+	display:block;
+	height: 52px;
+	line-height: 52px;
+}
+.main #code-box label{
+	display:block;
+	width: 107px;
+	height: 52px;
+	line-height: 52px;
+	float: left;
+}
+.main #code-box #code-input{
+	display:block;
+	width: 110px;
+	height: 52px;
+	line-height: 52px;
+	float: left;
+	padding-left: 10px;
+}
+.main #code-box #clear{
+	float: left;
+	width: 16px;
+	height: 16px;
+	background: url(../images/reg-icon.png) -80px -160px;
+	margin-top: 20px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+/*填写账号信息*/
+.main #form-reg{
+	height: 400px;
+	font-size: 14px;
+	color: #666;
+	display: none;
+}
+.main #form-reg .form-box{
+	width: 398px;
+	height: 52px;
+	line-height: 52px;
+	border: 1px solid #DDD;
+	margin-bottom: 32px;
+}
+.main #form-reg .form-box label{
+	display:block;
+	width: 107px;
+	float: left;
+}
+.main #form-reg .form-box input{
+	display:block;
+	width: 281px;
+	height: 52px;
+	line-height: 52px;
+	padding-left: 10px;
+}
+.main #form-reg .form-box .okIcon{
+	width: 17px;
+	height: 17px;
+	float: right;
+	margin-top: -32px;
+	margin-right: 10px;
+	background: url(../images/reg-icon.png) -111px -158px;
+	display: none;
+}
+.main #form-reg #reg-btn{
+	width: 400px;
+	height: 54px;
+	line-height: 54px;
+	background: #E2231A;
+	color: #fff;
+	font-size: 16px;
+	margin-bottom: 30px;
+	cursor: pointer;
+}
+.main #form-reg #reg-btn:hover{
+	background: #C81623;
+}
+/*注册成功*/
+.main #regSucceed{
+	display:none;
+}
+.main #regSucceed div{
+	width: 400px;
+	height: 54px;
+	line-height: 54px;
+	font-size: 24px;
+	margin-bottom: 32px;
+}
+.main #regSucceed a{
+	display: block;
+	width: 400px;
+	height: 54px;
+	line-height: 54px;
+	background: #E2231A;
+	color: #fff;
+	font-size: 16px;
+}
+.main #regSucceed a:hover{
+	background: #C81623;
+}
+
+/*footer*/
+#footer{
+	border-top: 1px solid #F4F4F4;
+	width: 1210px;
+	height: 80px;
+	padding: 20px 0px 18px 0px;
+	margin: 0 auto;
+	text-align: center;
+	color: #999;
+}
+#footer a{
+	display: inline-block;
+	width: 66px;
+	padding-left: 3px;
+	text-align: center;
+	color: #999;
+}
+#footer a:hover{
+	text-decoration: underline;
+	color: #E4393C;
+}
+#copyright{
+	text-align: center;
+	margin-top: 20px;
+}

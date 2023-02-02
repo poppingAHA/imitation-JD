@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>个人注册</title>
+	<link rel="stylesheet" href="./css/base.css">
+	<link rel="stylesheet" href="./css/regPage.css">
+	<link rel="shortcut icon" href="./favicon.ico">
+	<script src="./js/jquery-1.12.4.js"></script>
+	<script src="./js/regPage.js"></script>
+</head>
+<body>
+	<!-- header -->
+	<div class="header">
+		<a href="index.html" id="logo" class="fl">
+			<img src="./images/logo-201305-b.png" alt="京东">
+		</a>
+		<div id="logo-title" class="fl">欢迎注册</div>		
+		<div class="fr">
+			<span>已有帐号？</span>
+			<a href="passport.html">请登录></a>
+		</div>	
+	</div>
+	<div id="shadow"></div>
+	<!-- regform -->
+	<div id="container">
+		<div id="regform">
+			<!-- 进程条 -->
+			<div class="progress-bar">
+				<div class="pro-step">
+					<span class="step-index index-now">1</span>
+					<p class="step-desc desc-now">验证手机号</p>
+				</div>
+				<div class="line"></div>
+				<div class="pro-step">
+					<span class="step-index">2</span>
+					<p class="step-desc">填写账号信息</p>
+				</div>
+				<div class="line"></div>
+				<div class="pro-step">
+					<span class="step-index">3</span>
+					<p class="step-desc">注册成功</p>
+				</div>
+			</div>
+			<div class="main">
+				<!-- 验证手机号 -->
+				<div class="form">
+					<form action="">
+						<div id="select-country">
+							<label>中国&nbsp0086
+								<a href="javascript:;" class="arrow"><i></i></a>
+							</label>
+						</div>
+						<div id="correct-icon"></div>
+						<input type="text" id="phoneNum" placeholder="建议使用常用手机号">
+						<div id="check-phoneNum">点击按钮进行验证</div>	
+						<div id="code-box">
+							<div id="input-box">
+								<label for="code-input">验证码</label>
+								<input type="text" id="code-input" placeholder="输入验证码">
+								<div id="clear"></div>
+							</div>								
+							<div id="code"><span></span></div>
+						</div>
+						<a href="javascript:;" class="nextstep">下一步</a>
+						<div class="reg-others fl" id="qiye">
+							<a href="javascript:;">
+								<div id="qiye-icon"></div>
+								<span>企业用户注册</span>
+							</a>
+						</div>
+						<div class="reg-others fr" id="haiwai">
+							<a href="javascript:;">
+								<div id="haiwai-icon"></div>
+								<span>海外用户注册</span>
+							</a>
+						</div>
+					</form>
+				</div>
+				<!-- 填写账号信息 -->
+				<div class="form" id="form-reg">
+					<form action="">
+						<div class="form-box">
+							<label for="username">用&nbsp户&nbsp名</label>
+							<input type="text" id="username" placeholder="您的账户名和登录名">
+							<div class="okIcon"></div>
+						</div>
+						<div class="form-box">
+							<label for="setpwd">设置密码</label>
+							<input type="password" id="setpwd" placeholder="建议使用两种或两种以上字符组合">
+							<div class="okIcon"></div>
+						</div>
+						<div class="form-box">
+							<label for="pwdRepeat">确认密码</label>
+							<input type="password" id="pwdRepeat" placeholder="请再次输入密码">
+							<div class="okIcon"></div>
+						</div>
+						<div id="reg-btn">立即注册</div>
+						<div class="reg-others fl" id="qiye">
+							<a href="javascript:;">
+								<div id="qiye-icon"></div>
+								<span>企业用户注册</span>
+							</a>
+						</div>
+						<div class="reg-others fr" id="haiwai">
+							<a href="javascript:;">
+								<div id="haiwai-icon"></div>
+								<span>海外用户注册</span>
+							</a>
+						</div>
+					</form>
+				</div>
+				<!-- 注册成功 -->
+				<div class="form" id="regSucceed">
+					<div>注册成功</div>
+					<a href="passport.html">立即登录</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- footer -->
+	<div id="footer">
+		<div>
+			<a href="javascript:;">关于我们</a>|
+			<a href="javascript:;">联系我们</a>|
+			<a href="javascript:;">人才招聘</a>|
+			<a href="javascript:;">商家入驻</a>|
+			<a href="javascript:;">广告服务</a>|
+			<a href="javascript:;">手机京东</a>|
+			<a href="javascript:;">友情链接</a>|
+			<a href="javascript:;">销售联盟</a>|
+			<a href="javascript:;">京东社区</a>|
+			<a href="javascript:;">京东公益</a>|
+			<a href="javascript:;">English Site</a>
+		</div>
+		<div id="copyright">
+			<p>Copyright © 数媒19 19103670131 蔡秋霞 版权所有 </p>
+		</div>	
+	</div>
+</body>
+</html>
